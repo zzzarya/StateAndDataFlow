@@ -25,8 +25,7 @@ struct ContentView: View {
             }
             Spacer()
             ButtonView(title: "LogOut", color: .blue) {
-                userManager.user.name = ""
-                userManager.user.isRegister.toggle()
+                StorageManager.shared.delete(userManager: userManager)
             }
         }
     }

@@ -17,6 +17,7 @@
 		068B218B290707A00042E590 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068B218A290707A00042E590 /* Preview Assets.xcassets */; };
 		068B2192290709B80042E590 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B2191290709B80042E590 /* ButtonView.swift */; };
 		600B8B9F29096559002A32C8 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600B8B9E29096559002A32C8 /* StorageManager.swift */; };
+		600B8BA129097015002A32C8 /* ButtonViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600B8BA029097015002A32C8 /* ButtonViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		068B218A290707A00042E590 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		068B2191290709B80042E590 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		600B8B9E29096559002A32C8 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		600B8BA029097015002A32C8 /* ButtonViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,13 +66,14 @@
 			isa = PBXGroup;
 			children = (
 				068B21832907079E0042E590 /* StateAndDataFlowApp.swift */,
+				064667AD290718F9001EC31D /* StarterView.swift */,
+				064667A92907168B001EC31D /* RegisterView.swift */,
 				068B21852907079E0042E590 /* ContentView.swift */,
+				068B2191290709B80042E590 /* ButtonView.swift */,
+				600B8BA029097015002A32C8 /* ButtonViewModifier.swift */,
+				064667AB2907175A001EC31D /* UserManager.swift */,
 				600B8B9E29096559002A32C8 /* StorageManager.swift */,
 				064667A729070DC7001EC31D /* TimeCounter.swift */,
-				068B2191290709B80042E590 /* ButtonView.swift */,
-				064667A92907168B001EC31D /* RegisterView.swift */,
-				064667AD290718F9001EC31D /* StarterView.swift */,
-				064667AB2907175A001EC31D /* UserManager.swift */,
 				068B2187290707A00042E590 /* Assets.xcassets */,
 				068B2189290707A00042E590 /* Preview Content */,
 			);
@@ -162,6 +165,7 @@
 				068B2192290709B80042E590 /* ButtonView.swift in Sources */,
 				068B21842907079E0042E590 /* StateAndDataFlowApp.swift in Sources */,
 				064667A829070DC7001EC31D /* TimeCounter.swift in Sources */,
+				600B8BA129097015002A32C8 /* ButtonViewModifier.swift in Sources */,
 				600B8B9F29096559002A32C8 /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
